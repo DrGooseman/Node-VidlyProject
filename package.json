@@ -10,8 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
+    "fawn": "^2.1.5",
     "joi": "^13.1.0",
-    "mongoose": "^5.0.2"
+    "joi-objectid": "^3.0.1",
+    "mongoose": "^5.8.4"
   },
   "description": ""
 }
