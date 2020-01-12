@@ -1,15 +1,16 @@
 let server;
 const request = require("supertest");
+const mongoose = require("mongoose");
 const {Genre} = require("../../models/genre");
 const {User} = require("../../models/user"); 
 
 describe("/api/genres", () => {
     beforeEach(() => {server = require("../../index");});
     afterEach(async() => {
-        server.close;
         await Genre.remove({});
+        await server.close();
     });
-//
+////
     describe("GET /", () => {
         test("should return all genres", async () => {
             await Genre.collection.insertMany([
@@ -40,6 +41,13 @@ describe("/api/genres", () => {
         test("should return 404 if an invalid id is passed", async () => {
 
             const res = await request(server).get("/api/genres/1");
+
+            expect(res.status).toBe(404);
+        });
+
+        test("should return 404 if no genre with the given id exists", async () => {
+            const id = mongoose.Types.ObjectId();
+            const res = await request(server).get("/api/genres/"+id);
 
             expect(res.status).toBe(404);
         });
@@ -91,5 +99,5 @@ describe("/api/genres", () => {
             expect(res.body).toHaveProperty("name", "genre1");
         });
     });
-    
+    //
 });
