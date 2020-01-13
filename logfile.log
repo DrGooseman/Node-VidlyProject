@@ -767,3 +767,20 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:03:06.746Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:03:07.159Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:03:07.176Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:10:24.124Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:10:24.167Z"}
+{"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\models\\rental.js:67:19)\n    at Object.<anonymous>.router.post (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\routes\\returns.js:21:2)","level":"error","timestamp":"2020-01-13T18:10:24.404Z"}
+{"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\models\\rental.js:67:19)\n    at Object.<anonymous>.router.post (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\routes\\returns.js:21:2)","level":"error","timestamp":"2020-01-13T18:10:24.438Z"}
+{"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\models\\rental.js:67:19)\n    at Object.<anonymous>.router.post (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\routes\\returns.js:21:2)","level":"error","timestamp":"2020-01-13T18:10:24.477Z"}
+{"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\models\\rental.js:67:19)\n    at Object.<anonymous>.router.post (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\routes\\returns.js:21:2)","level":"error","timestamp":"2020-01-13T18:10:24.510Z"}
+{"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.Object.<anonymous>.rentalSchema.methods.return (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\models\\rental.js:67:19)\n    at Object.<anonymous>.router.post (C:\\Users\\Jim\\Desktop\\Node.js\\vidly\\routes\\returns.js:21:2)","level":"error","timestamp":"2020-01-13T18:10:24.542Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:10:24.879Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:10:24.905Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:10:25.303Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:10:25.320Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:11:51.937Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:11:51.953Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:11:52.590Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:11:52.604Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-13T18:11:52.957Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-01-13T18:11:52.979Z"}
